@@ -12,18 +12,18 @@
       <!-- little info -->
       <div class="presentation__info">
         <div class="presentation__info_text">
-          <p>Joel Gustavo Suarez Rodriguez. Desarrollador web Frontent
-            Santiago de Cali
+          <p>Joel Gustavo Suarez Rodriguez.<br> Desarrollador web Frontent. <br>
+            Santiago de Cali.
           </p>
         </div>
         <!-- menu -->
         <div class="presentation__info_nav">
           <nav class="menu" id="menu">
             <ul class="menu__list">
-              <li><a href="#">Trabajos</a></li>
-              <li><a href="#">Certificaciones</a></li>
-              <li><a href="#" target="">Conocimientos</a></li>
-              <li><a href="#" target="">Bio y Contacto</a></li>
+              <li><a href="#works">Trabajos</a></li>
+              <li><a href="#certs">Certificaciones</a></li>
+              <li><a href="#knowledge" target="">Conocimientos</a></li>
+              <li><a href="#info" target="">Bio y Contacto</a></li>
             </ul>
           </nav>
         </div>
@@ -33,17 +33,23 @@
         <div class="presentation__info_social">
           <div class="item item1">
             <figure class="logo">
-              <img src="../static/github.png" width="25" />
+              <a href="https://github.com/thirty33" target="_blank">
+                <img src="../static/github.png" width="25" />
+              </a>
             </figure>
           </div>
           <div class="item item2">
             <figure class="logo">
-              <img src="../static/linkedin.png" width="25" />
+              <a href="https://www.linkedin.com/in/joel-gustavo-suarez-rodriguez-1a4569156/" target="_blank">
+                <img src="../static/linkedin.png" width="25" />
+              </a>
             </figure>
           </div>
           <div class="item item3">
             <figure class="logo">
-              <img src="../static/twitter.png" width="25" />
+              <a href="https://twitter.com/HiramArch" target="_blank">
+                <img src="../static/twitter.png" width="25" />
+              </a>
             </figure>
           </div>
         </div>
@@ -59,7 +65,7 @@
         <h2>Trabajos</h2>
       </div>
       <!-- works -->
-      <section class="layout__works">
+      <section id="works" class="layout__works">
         <article class="layout__works_item">
           <div class="layout_works_item_img">
             <figure>
@@ -67,10 +73,10 @@
             </figure>
           </div>
           <div class="layout_works_item_description">
-            <aside class="layout_works_item_description">
-              <span>Tecnologias: Vuejs, Firebase</span>
-              <span>Url: jetsetmobile.info</span>
-              <span>Github:</span>
+            <aside class="layout_works_item_description_aside">
+              <h7>Tecnologias: Vuejs, Firebase</h7><br>
+              <h7>Url: jetsetmobile.info</h7><br>
+              <h7>Github:</h7>
             </aside>
           </div>
         </article>
@@ -81,10 +87,10 @@
             </figure>
           </div>
           <div class="layout_works_item_description">
-            <aside class="layout_works_item_description">
-              <span>Tecnologias: Vuejs, Firebase</span>
-              <span>Url: jetsetmobile.info</span>
-              <span>Github:</span>
+            <aside class="layout_works_item_description_aside">
+              <h7>Tecnologias: Vuejs, Firebase</h7><br>
+              <h7>Url: jetsetmobile.info</h7><br>
+              <h7>Github:</h7>
             </aside>
           </div>
         </article>
@@ -95,10 +101,10 @@
             </figure>
           </div>
           <div class="layout_works_item_description">
-            <aside class="layout_works_item_description">
-              <span>Tecnologias: Bootstrap, jquery</span>
-              <span>Url: jetsetmobile.info</span>
-              <span>Github:</span>
+            <aside class="layout_works_item_description_aside">
+              <h7>Tecnologias: Bootstrap, Jquery</h7><br>
+              <h7>Url: jetsetmobile.info</h7><br>
+              <h7>Github:</h7>
             </aside>
           </div>
         </article>
@@ -109,10 +115,10 @@
             </figure>
           </div>
           <div class="layout_works_item_description">
-            <aside class="layout_works_item_description">
-              <span>Tecnologias: Foundation, jquery</span>
-              <span>Url: jetsetmobile.info</span>
-              <span>Github:</span>
+            <aside class="layout_works_item_description_aside">
+              <h7>Tecnologias: Foundation</h7><br>
+              <h7>Url: jetsetmobile.info</h7><br>
+              <h7>Github:</h7>
             </aside>
           </div>
         </article>
@@ -123,10 +129,10 @@
             </figure>
           </div>
           <div class="layout_works_item_description">
-            <aside class="layout_works_item_description">
-              <span>Tecnologias: HTML5, CSS3, jquery</span>
-              <span>Url: jetsetmobile.info</span>
-              <span>Github:</span>
+            <aside class="layout_works_item_description_aside">
+              <h7>Tecnologias: HTML5, CSS3</h7><br>
+              <h7>Url: jetsetmobile.info</h7><br>
+              <h7>Github:</h7>
             </aside>
           </div>
         </article>
@@ -136,11 +142,31 @@
         <h2>Certificados</h2>
       </div>
       <!-- certificados -->
-      <div class="layout__certs">
+      <div id="certs" class="layout__certs">
         <article class="layout__certs_item">
           <div class="layout__certs_item_img">
             <figure>
+            <a href="https://platzi.com/@HiramBridge/curso/fundamentos-javascript/diploma/" target="_blank">
               <img src="../static/javascript.png" width="250" />
+            </a>  
+            </figure>
+          </div>
+        </article>
+        <article class="layout__certs_item">
+            <div class="layout__certs_item_img">
+              <figure>
+                <a href="https://platzi.com/@HiramBridge/curso/vuejs/diploma/" target="_blank">
+                  <img src="../static/postcss.png" width="250" />
+                </a>  
+              </figure>
+            </div>
+        </article>
+        <article class="layout__certs_item">
+          <div class="layout__certs_item_img">
+            <figure>
+              <a href="https://platzi.com/@HiramBridge/curso/responsive-design/diploma/" target="_blank">
+                <img src="../static/responsive.png" width="250" />
+              </a>  
             </figure>
           </div>
           
@@ -148,7 +174,9 @@
         <article class="layout__certs_item">
           <div class="layout__certs_item_img">
             <figure>
-              <img src="../static/postcss.png" width="250" />
+              <a href="https://platzi.com/@HiramBridge/curso/vuejs/diploma/" target="_blank">
+                <img src="../static/vue.png" width="250" />
+              </a>  
             </figure>
           </div>
           
@@ -156,7 +184,9 @@
         <article class="layout__certs_item">
           <div class="layout__certs_item_img">
             <figure>
-              <img src="../static/responsive.png" width="250" />
+              <a href="https://platzi.com/@HiramBridge/curso/git-github-2016/diploma/" target="_blank">
+                <img src="../static/git.png" width="250" />
+              </a>  
             </figure>
           </div>
           
@@ -164,7 +194,9 @@
         <article class="layout__certs_item">
           <div class="layout__certs_item_img">
             <figure>
-              <img src="../static/vue.png" width="250" />
+              <a href="https://platzi.com/@HiramBridge/curso/html5-css3/diploma/" target="_blank">
+                <img src="../static/desarrollo.png" width="250" />
+              </a>  
             </figure>
           </div>
           
@@ -172,7 +204,9 @@
         <article class="layout__certs_item">
           <div class="layout__certs_item_img">
             <figure>
-              <img src="../static/git.png" width="250" />
+              <a href="https://platzi.com/@HiramBridge/curso/postcss-2016/diploma/" target="_blank">
+                <img src="../static/postcss.png" width="250" />
+              </a>  
             </figure>
           </div>
           
@@ -180,15 +214,9 @@
         <article class="layout__certs_item">
           <div class="layout__certs_item_img">
             <figure>
-              <img src="../static/desarrollo.png" width="250" />
-            </figure>
-          </div>
-          
-        </article>
-        <article class="layout__certs_item">
-          <div class="layout__certs_item_img">
-            <figure>
-              <img src="../static/postcss.png" width="250" />
+              <a href="https://platzi.com/@HiramBridge/curso/fw-frontend/diploma/" target="_blank">
+                <img src="../static/frameworks.png" width="250" />
+              </a>  
             </figure>
           </div>
           
@@ -200,7 +228,7 @@
       <div class="layout__title">
         <h2>Conocimientos</h2>
       </div>
-      <div class="layout__knowledge">
+      <div id="knowledge" class="layout__knowledge">
         <div class="layout__knowledge_col">
           <h3>Maquetacion Web</h3>
           <ul class="layout__knowledge_col_features">
@@ -233,9 +261,9 @@
 
     <!-- Bio y contacto -->
       <div class="layout__title">
-        <h2>Trabajos</h2>
+        <h2>Bio y contacto</h2>
       </div>
-      <div class="layout__info">
+      <div id="info" class="layout__info">
         <div class="layout__info__bio">
           <div>
             <h4>Nombre: Joel Gustavo Suarez Rodriguez</h4>
@@ -246,8 +274,8 @@
           <div class="layout__info__bio_studies">
             <h4>Estudios Universitarios:</h4>
             <p>
-              Ingenieria de Sistemas en ULA Venezuela (5to Semestre).
-              Estuadiante activo en Platzi.com.
+              Ingenieria de Sistemas en ULA Venezuela (5to Semestre)
+              Estudiante activo en Platzi.com
             </p>
           </div>
         </div>
@@ -288,7 +316,8 @@ export default {
     box-sizing: border-box;
     font-family: sans-serif;
     margin: 0 0;
-    background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+    color: white;
+    background-color: #EDEDED;
   }
 
   #App {
@@ -300,13 +329,13 @@ export default {
   }
 
   .presentation {
-    border: 2px solid red;
     flex: 1 1 25%;
     flex-basis: 200px;
     height: inherit;
     display: flex;
     flex-wrap: wrap;
     height: 100vh;
+    background-color: #13507D;
   }
 
   .presentation > * {
@@ -314,7 +343,6 @@ export default {
   }
 
   .presentation__img {
-    border: 2px solid skyblue;
     flex-grow: 1;
     display: flex;
     align-items: center;
@@ -322,22 +350,31 @@ export default {
   }
 
   .presentation__img figure {
-    border: 2px solid blue;
     display:flex;
     justify-content: center;
+    
   }
   .presentation__img img {
     border-radius: 50%;
   }
 
   .presentation__info {
-    border: 2px solid green;
+    /* border: 2px solid green; */
     flex-grow: 5;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    
+    background-color: #C4C4C4;
+    margin: 10px 30px;
+    border-radius: 5%;
+  }
+
+  .presentation__info_text {
+    background-color: #EDE6E6;
+    margin-top: 15px;
+    padding: 0 10px;
+    border-radius: 3%;
   }
 
   
@@ -345,9 +382,22 @@ export default {
 
   /* nav */
   .menu__list {
-    list-style: none;
     padding: 0;
+    list-style: none; 
   }
+
+  .menu__list li {
+    margin-top: 5px;
+  }
+  .menu__list li a {
+    text-decoration: none;
+    color: white;
+    padding: 3px 2px;
+  }
+
+  .menu__list li a:hover {
+    background-color: #635858;
+  }  
   /* /nav */
 
   /* social */
@@ -357,8 +407,18 @@ export default {
   /* /social */
 
   /* layout */
+
+  .layout__title {
+    background-color: #A7C4D9;
+    margin: 0 15px;
+    border-radius: 1%;
+  }
+
+  .layout__title h2 {
+    padding: 2px 2px 0 2px;
+  }
+
   .layout {
-    border: 2px solid yellow;
     flex: 4 1 75%;
     flex-basis: 400px;
     height: inherit;
@@ -368,14 +428,14 @@ export default {
   .layout__works {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* justify-content: center; */
-    
-    
   }
 
   .layout__works_item {
-    /* border: 2px solid black; */
-    /* flex: 1 1 50%; */
+    margin-bottom: 15px;
+  }
+
+  .layout__works_item  figure {
+    margin: 0 35px; 
   }
 
   .layout_works_item_description {
@@ -383,6 +443,15 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #C4C4C4;
+    margin: 0 35px;
+    border-radius: 3px; 
+  }
+
+  layout_works_item_description_aside {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 
   /* certificados */
@@ -390,31 +459,58 @@ export default {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .layout__certs_item {
+    background-color:  #C4C4C4;
+    /* margin-bottom: 15px; */
+    margin: 5px 22px;
+    border-radius: 2%;  
+  }
+
+  .layout__certs_item figure {
+    margin: 10px 10px 10px 10px;
+    /* padding: 5px 5px;  */
+    display: flex;
+    justify-content: center;
+  }
   /* /certificados */
 
   /* conocimientos */
   .layout__knowledge {
-    border: 3px solid black;
-    /* max-width: 750px; */
     margin: 0 auto;
     display: flex;
-    align-items: start;
-    /* justify-content: space-around; */
+    text-align: center;
+    align-items: stretch;
   }
 
   .layout__knowledge_col {
-    border: 2px solid green;
     margin: 20px;
     padding: 20px;
-    text-align: center;
+    /* text-align: center; */
     flex: 1;
     display: flex;
     flex-wrap: wrap;
+    background-color: #C4C4C4;
+    text-align: center;
+    border-radius: 5%;
+  }
+
+  .layout__knowledge_col > * {
+    flex: 1 1 100%;
   }
 
   .layout__knowledge_col_features {
-    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding: 0;
+    margin-top: 0;
+  }
+
+  .layout__knowledge_col_features li {
+    text-align: inherit;
+    margin-top: 5px;
+    list-style: none;
   }
 
   .layout__knowledge_col_features:last-child {
@@ -429,33 +525,44 @@ export default {
 
   /* Info y contacto */
   .layout__info {
-    display: flex;
+    display: grid;
+    grid-gap: 15px;
+    margin: 0 15px;
+    grid-template-columns: repeat(2, 1fr) 
+    
   }
-
-  
 
   .layout__info__bio {
     flex: 1;
     display:flex;
-    /* flex-direction: column; */
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     align-content: center;
-    border: 3px solid black;
+    border-radius: 1%;
+    background: #DB8F8F;
   }
+
+  .layout__info__bio h4,
+  .layout__info__bio p {
+    margin: 5px 15px;
+  }
+
   .layout__info__bio_studies {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
   }
 
   .layout__info__contact {
     flex: 1;
-    border: 3px solid black;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    background: #DB8F8F;
+    border-radius: 1%;
+  }
+
+  .layout__info__contact h4 {
+    margin: 5px 0;
   }
 
   /* /Info y contacto */
