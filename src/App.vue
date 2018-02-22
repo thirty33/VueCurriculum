@@ -319,7 +319,7 @@ export default {
   }
 
   body {
-    margin: 0 0;
+    margin: 0;
   }
 
   :root {
@@ -331,18 +331,17 @@ export default {
   }
 
   #App {
-    height:100vh;
     display: flex;
     flex-wrap: wrap;
+    height: 100vh; 
   }
 
   .presentation {
     flex: 1 1 25%;
     flex-basis: 200px;
-    height: inherit;
     display: flex;
-    flex-wrap: wrap;
-    height: 100vh;
+    flex-direction: column;
+    flex-wrap: nowrap;
     background-color: #13507D;
   }
 
@@ -360,6 +359,7 @@ export default {
   .presentation__img figure {
     display:flex;
     justify-content: center;
+    align-items: center;
     
   }
   .presentation__img img {
@@ -367,7 +367,6 @@ export default {
   }
 
   .presentation__info {
-    /* border: 2px solid green; */
     flex-grow: 5;
     display: flex;
     flex-wrap: wrap;
@@ -429,8 +428,9 @@ export default {
   .layout {
     flex: 4 1 75%;
     flex-basis: 400px;
-    height: inherit;
+    height: 100vh;
     overflow-y: scroll;
+    overflow-x: hidden;
   }
 
   .layout__works {
@@ -456,7 +456,7 @@ export default {
     border-radius: 3px; 
   }
 
-  layout_works_item_description_aside {
+  .layout_works_item_description_aside {
     display: flex;
     flex-direction: column;
     text-align: center;
