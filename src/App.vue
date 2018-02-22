@@ -69,70 +69,80 @@
         <article class="layout__works_item">
           <div class="layout_works_item_img">
             <figure>
-              <img src="../static/jetsetmobile.png" width="250" />
+              <a href="http://jetsetmobile.info" target="_blank">
+                <img src="../static/jetsetmobile.png" width="250" />
+              </a>
             </figure>
           </div>
           <div class="layout_works_item_description">
             <aside class="layout_works_item_description_aside">
               <h7>Tecnologias: Vuejs, Firebase</h7><br>
               <h7>Url: jetsetmobile.info</h7><br>
-              <h7>Github:</h7>
+              <h7><a href="https://github.com/thirty33/Vuejs-Firebase" target="_blank">Github</a></h7>
             </aside>
           </div>
         </article>
         <article class="layout__works_item">
           <div class="layout_works_item_img">
             <figure>
-              <img src="../static/meetupsapp.png" width="250" />
+              <a href="https://github.com/thirty33/MeetupsApp" target="_blank">
+                <img src="../static/meetupsapp.png" width="250" />
+              </a>
             </figure>
           </div>
           <div class="layout_works_item_description">
             <aside class="layout_works_item_description_aside">
               <h7>Tecnologias: Vuejs, Firebase</h7><br>
-              <h7>Url: jetsetmobile.info</h7><br>
-              <h7>Github:</h7>
+              <h7>Url:</h7><br>
+              <h7><a href="https://github.com/thirty33/MeetupsApp" target="_blank">Github</a></h7>
             </aside>
           </div>
         </article>
         <article class="layout__works_item">
           <div class="layout_works_item_img">
             <figure>
-              <img src="../static/exampleshop.png" width="250" />
+              <a href="https://github.com/thirty33/LearningBootstrap" target="_blank">
+                <img src="../static/exampleshop.png" width="250" />
+              </a>
             </figure>
           </div>
           <div class="layout_works_item_description">
             <aside class="layout_works_item_description_aside">
               <h7>Tecnologias: Bootstrap, Jquery</h7><br>
               <h7>Url: jetsetmobile.info</h7><br>
-              <h7>Github:</h7>
+              <h7><a href="https://github.com/thirty33/LearningBootstrap" target="_blank">Github</a></h7>
             </aside>
           </div>
         </article>
         <article class="layout__works_item">
           <div class="layout_works_item_img">
             <figure>
-              <img src="../static/rockatpark.png" width="250" />
+              <a href="https://github.com/thirty33/FoundationProject" target="_blank">
+                <img src="../static/rockatpark.png" width="250" />
+              </a>
             </figure>
           </div>
           <div class="layout_works_item_description">
             <aside class="layout_works_item_description_aside">
               <h7>Tecnologias: Foundation</h7><br>
               <h7>Url: jetsetmobile.info</h7><br>
-              <h7>Github:</h7>
+              <h7><a href="https://github.com/thirty33/FoundationProject" target="_blank">Github</a></h7>
             </aside>
           </div>
         </article>
         <article class="layout__works_item">
           <div class="layout_works_item_img">
             <figure>
-              <img src="../static/invie.png" width="250" />
+              <a href="https://github.com/thirty33/Invie" target="_blank">
+                <img src="../static/invie.png" width="250" />
+              </a>
             </figure>
           </div>
           <div class="layout_works_item_description">
             <aside class="layout_works_item_description_aside">
               <h7>Tecnologias: HTML5, CSS3</h7><br>
               <h7>Url: jetsetmobile.info</h7><br>
-              <h7>Github:</h7>
+              <h7><a href="https://github.com/thirty33/Invie" target="_blank">Github</a></h7>
             </aside>
           </div>
         </article>
@@ -321,11 +331,9 @@ export default {
   }
 
   #App {
-    border:3px solid green;
     height:100vh;
     display: flex;
     flex-wrap: wrap;
-
   }
 
   .presentation {
@@ -452,6 +460,11 @@ export default {
     display: flex;
     flex-direction: column;
     text-align: center;
+  }
+
+  .layout_works_item_description_aside a {
+    color: white;
+    text-decoration: none;
   }
 
   /* certificados */
