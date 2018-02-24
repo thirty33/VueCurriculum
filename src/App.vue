@@ -12,7 +12,7 @@
       <!-- little info -->
       <div class="presentation__info">
         <div class="presentation__info_text">
-          <p>Joel Gustavo Suarez Rodriguez.<br> Desarrollador web Frontent. <br>
+          <p>Joel Gustavo Suarez Rodriguez.<br> Desarrollador web Frontend. <br>
             Santiago de Cali.
           </p>
         </div>
@@ -109,7 +109,7 @@
           <div class="layout_works_item_description">
             <aside class="layout_works_item_description_aside">
               <h7>Tecnologias: Bootstrap, Jquery</h7><br>
-              <h7>Url: jetsetmobile.info</h7><br>
+              <h7>Url:</h7><br>
               <h7><a href="https://github.com/thirty33/LearningBootstrap" target="_blank">Github</a></h7>
             </aside>
           </div>
@@ -125,7 +125,7 @@
           <div class="layout_works_item_description">
             <aside class="layout_works_item_description_aside">
               <h7>Tecnologias: Foundation</h7><br>
-              <h7>Url: jetsetmobile.info</h7><br>
+              <h7>Url:</h7><br>
               <h7><a href="https://github.com/thirty33/FoundationProject" target="_blank">Github</a></h7>
             </aside>
           </div>
@@ -141,7 +141,7 @@
           <div class="layout_works_item_description">
             <aside class="layout_works_item_description_aside">
               <h7>Tecnologias: HTML5, CSS3</h7><br>
-              <h7>Url: jetsetmobile.info</h7><br>
+              <h7>Url:</h7><br>
               <h7><a href="https://github.com/thirty33/Invie" target="_blank">Github</a></h7>
             </aside>
           </div>
@@ -163,15 +163,6 @@
           </div>
         </article>
         <article class="layout__certs_item">
-            <div class="layout__certs_item_img">
-              <figure>
-                <a href="https://platzi.com/@HiramBridge/curso/vuejs/diploma/" target="_blank">
-                  <img src="../static/postcss.png" width="250" />
-                </a>  
-              </figure>
-            </div>
-        </article>
-        <article class="layout__certs_item">
           <div class="layout__certs_item_img">
             <figure>
               <a href="https://platzi.com/@HiramBridge/curso/responsive-design/diploma/" target="_blank">
@@ -187,7 +178,7 @@
               <a href="https://platzi.com/@HiramBridge/curso/vuejs/diploma/" target="_blank">
                 <img src="../static/vue.png" width="250" />
               </a>  
-            </figure>
+            </figure> 
           </div>
           
         </article>
@@ -328,6 +319,8 @@ export default {
     margin: 0 0;
     color: white;
     background-color: #EDEDED;
+    font-family: 'Bellefair', serif;
+    font-size: 18px;
   }
 
   #App {
@@ -343,6 +336,10 @@ export default {
     flex-direction: column;
     flex-wrap: nowrap;
     background-color: #13507D;
+  }
+
+  .presentation__info_text {
+    color: black;
   }
 
   .presentation > * {
@@ -569,6 +566,9 @@ export default {
     flex: 1;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
     justify-content: center;
     background: #DB8F8F;
     border-radius: 1%;

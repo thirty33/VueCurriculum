@@ -1,6 +1,6 @@
 # cv-joelsuarez
 
-> curriculum vitae
+> curriculum vitae construido con vuejs.
 
 ## Build Setup
 
